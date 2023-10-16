@@ -1,5 +1,7 @@
 # Keinsack
 
+[![CI](https://github.com/blue0513/Keinsack/actions/workflows/ci.yml/badge.svg)](https://github.com/blue0513/Keisack/actions/workflows/ci.yml)
+
 Quick search selected text on Google.
 
 ## Usage

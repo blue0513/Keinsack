@@ -10,7 +10,7 @@ function clearText() {
   setText("");
 }
 async function search(text) {
-  await chrome.search.query({ text: text });
+  await chrome.search.query({ text: text, disposition: "NEW_TAB" });
 }
 
 chrome.runtime.onMessage.addListener((message) => {
